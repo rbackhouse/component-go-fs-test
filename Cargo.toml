@@ -1,0 +1,10 @@
+[package]
+name = "component-go-fs-test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+wasmtime = { version = "12.0.1", features = ['component-model'] }
+wasmtime-wasi = "12.0.1"
+anyhow = "1.0.19"
+tokio = { version = "1.0", features = ["full"] }

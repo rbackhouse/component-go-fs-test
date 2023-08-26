@@ -1,0 +1,6 @@
+/target
+/Cargo.lock
+*.wasm
+/tinygo
+tinygo*.tar.gz
+.DS_Store

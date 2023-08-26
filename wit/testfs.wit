@@ -1,0 +1,5 @@
+package test:testfs
+
+world testfs {
+    export openfile: func()
+}
